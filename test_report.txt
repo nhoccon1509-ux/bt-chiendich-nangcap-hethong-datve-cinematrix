@@ -1,0 +1,7 @@
+ghế ở hàng 1 , cột 2 hãy xem vị trí đặt ghế và tính giá vé
+
+//TEST
+bookSeatLegacy(1,2);
+
+Đặt ghế thành công!
+Giá vé: 90000 VNĐ
