@@ -2,6 +2,42 @@ ghế ở hàng 1 , cột 2 hãy xem vị trí đặt ghế và tính giá vé
 
 //TEST
 bookSeatLegacy(1,2);
+console.log("=== Test 1: Đặt ghế trống ===");
+bookSeatLegacy(1, 2);
+
+console.log("\n=== Test 2: Đặt lại ghế vừa đặt ===");
+bookSeatLegacy(1, 2);
+
+console.log("\n=== Test 3: Ghế đã có người từ đầu ===");
+bookSeatLegacy(0, 1);
+
+console.log("\n=== Test 4: Hàng âm ===");
+bookSeatLegacy(-1, 1);
+
+console.log("\n=== Test 5: Vượt quá số cột ===");
+bookSeatLegacy(0, 5);
+
+console.log("\n=== Test 6: Vượt quá số hàng ===");
+bookSeatLegacy(5, 0);
+
+//cosole
 
 Đặt ghế thành công!
 Giá vé: 90000 VNĐ
+=== Test 1: Đặt ghế trống ===
+Lỗi: Ghế này đã được đặt!
+
+=== Test 2: Đặt lại ghế vừa đặt ===
+Lỗi: Ghế này đã được đặt!
+
+=== Test 3: Ghế đã có người từ đầu ===
+Lỗi: Ghế này đã được đặt!
+
+=== Test 4: Hàng âm ===
+Lỗi: Hàng ghế không hợp lệ!
+
+=== Test 5: Vượt quá số cột ===
+Lỗi: Cột ghế không hợp lệ!
+
+=== Test 6: Vượt quá số hàng ===
+Lỗi: Hàng ghế không hợp lệ!
